@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.OnlineCalucalor.ResultsOfTest">
+
+    <Button
+        android:id="@+id/prod"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="616dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/p5"
+        android:onClick="onProdClick"
+        android:text="Продолжить"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="391dp"
+        android:layout_height="476dp"
+        android:layout_marginTop="140dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/p5"
+        android:textSize="6pt"
+        android:textStyle="bold"
+
+
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Rezult"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        android:textSize="8pt"
+        android:textStyle="bold"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Opis"
+        android:layout_width="406dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="72dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/p5"
+        android:textSize="8pt"
+        android:textStyle="bold"
+
+
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

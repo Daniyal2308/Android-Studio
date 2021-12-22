@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OnlineCalucalor</string>
+    <string name="title_home">Главная страница</string>
+    <string name="title_dashboard">Тесты</string>
+    <string name="title_notifications">Подробнее</string>
+    <string name="title_itog">Итоги</string>
+    <string-array name="spinner">
+        <item>Мужчина</item>
+        <item>Женщина</item>
+    </string-array>
+    <string-array name="list">
+        <item>Индекс массы тела (кг/м2)</item>
+        <item>Уровень двигательный активности (число шагов в сутки)</item>
+        <item>Коэффициент выносливости (усл. ед.)</item>
+        <item>Уровень регуляции сердечно-сосудистой системы</item>
+        <item>Жизненный индекс (мл/кг)</item>
+        <item>Циркулярно-респираторный коэффициент Скибински (усл. ед.)</item>
+        <item>Вегетативный индекс Кердо (усл. ед)</item>
+        <item>Индекс функциональных изменений</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
